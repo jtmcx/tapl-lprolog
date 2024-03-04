@@ -1,0 +1,16 @@
+Specification "tyarith".
+
+%% From 8.2.4:
+%%   Theorem [Uniqueness of Types]: Each term t has at most one type. That is,
+%%   if t is typable, then its type is unique.
+
+Theorem type_unique :
+  forall E T1 T2, {typeof E T1} -> {typeof E T2} -> T1 = T2.
+induction on 1. intros. case H1.
+  case H2. search.
+  case H2. search.
+  case H2. search.
+  case H2. search.
+  case H2. search.
+  case H2. search.
+  case H2. apply IH to H4 H7. search.
