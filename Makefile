@@ -2,7 +2,8 @@ TJCC =		tjcc
 TJLINK =	tjlink
 
 MODULES=\
- tyarith.mod
+ tyarith.mod\
+ simplebool.mod
 
 all: $(MODULES:.mod=.lp)
 
