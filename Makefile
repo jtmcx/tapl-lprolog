@@ -5,7 +5,8 @@ TJDEPEND =	tjdepend
 MODULES=\
  tyarith.mod\
  simple.mod\
- simplebool.mod
+ simplebool.mod\
+ simpleunit.mod
 
 all: $(MODULES:.mod=.lp)
 
