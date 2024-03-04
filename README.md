@@ -10,6 +10,7 @@ and exercises have been translated into [abella][abella] proofs.
 | Module                           | Chapter                                   |
 | -------------------------------- | ----------------------------------------- |
 | [tyarith.mod](tyarith.mod)       | Chapter 8 - Typed Arithmetic Expressions  |
+| [simple.mod](simple.mod)         | Chapter 9 - Simply Typed Lambda Calculus  |
 | [simplebool.mod](simplebool.mod) | Chapter 9 - Simply Typed Lambda Calculus  |
 
 ## Building
