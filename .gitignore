@@ -2,6 +2,7 @@
 *.lpo
 *.part
 *.thc
+deps.mk
 
 \#*\#
 *~

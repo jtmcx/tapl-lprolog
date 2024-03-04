@@ -1,7 +1,5 @@
 module tyarith.
 
-%% The typing relation. See figure 8-2 in section 8.2 on page 93.
-
 typeof etrue tbool.
 typeof efalse tbool.
 typeof ezero tnat.
@@ -10,9 +8,6 @@ typeof (epred E) tnat :- typeof E tnat.
 typeof (eiszero E) tbool :- typeof E tnat.
 typeof (eif E1 E2 E3) T :-
   typeof E1 tbool, typeof E2 T, typeof E3 T.
-
-%% Small-step semantics. See figure 3-1 on page 34, and figure 3-2 on
-%% page 41.
 
 step (eif etrue T _) T.
 step (eif efalse _ F) F.
